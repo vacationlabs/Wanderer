@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">my_app</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_main">Location From GPS</string>
+    <string name="str_tv_location">Current Location</string>
+    <string name="title_activity_new_record">NewRecord</string>
+    <string name="title_activity_start_acticity">StartActicity</string>
+    <string name="title_activity_select_place">SelectPlace</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

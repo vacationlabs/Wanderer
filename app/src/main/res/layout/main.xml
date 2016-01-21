@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wanderer"
+        android:id="@+id/textView"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:layout_weight="0.75"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="0dp"
+        android:id="@+id/logo"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:layout_weight="0.4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Where Are You At?"
+        android:textColor="#fff"
+        android:id="@+id/textView2"
+        android:layout_weight="0.75"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
